@@ -1,0 +1,14 @@
+{
+  "name": "orub-digital",
+  "version": "1.0.0",
+  "description": "ORUB DIGITAL - sajt agencije sa admin panelom",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
