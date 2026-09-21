@@ -149,7 +149,8 @@ function packagesSection(s, items) {
     <div class="pkg-card reveal ${it.highlighted ? 'highlight' : ''}">
       ${it.highlighted ? `<span class="pkg-badge"><span data-lang-text="me">Najtraženiji</span><span data-lang-text="en">Most popular</span></span>` : ''}
       <h3 data-lang-text="me">${esc(it.name_me)}</h3><h3 data-lang-text="en">${esc(it.name_en)}</h3>
-      <div class="pkg-price">${esc(it.price)}</div>
+      <div class="pkg-price" data-lang-text="me">${esc(it.price_me)}</div>
+      <div class="pkg-price" data-lang-text="en">${esc(it.price_en)}</div>
       <div class="pkg-price-note" data-lang-text="me">${esc(it.price_note_me)}</div>
       <div class="pkg-price-note" data-lang-text="en">${esc(it.price_note_en)}</div>
       <ul class="pkg-features" data-lang-text="me">${raw(featuresMe)}</ul>
